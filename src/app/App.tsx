@@ -8,14 +8,14 @@ function App() {
   return (
     <>
         <Row justify={"center"}>
-            <Col span={6}></Col>
-            <Col span={12} style={{textAlign: "center"}}>
+            <Col xs={0} sm={2} md={4} span={6}></Col>
+            <Col xs={24} sm={20} md={16} span={12} style={{textAlign: "center"}}>
                 <Typography.Title level={1}>TODOS</Typography.Title>
                 <Card>
                     <TaskList/>
                 </Card>
             </Col>
-            <Col span={6}></Col>
+            <Col xs={0} sm={2} md={4} span={6}></Col>
         </Row>
         <Footer style={{ textAlign: 'center', fontFamily: "sans-serif" }}>
             Виктория Альшенецкая ©{new Date().getFullYear()}
