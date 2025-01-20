@@ -1,0 +1,7 @@
+html, body, .ant-layout-footer {
+    background-color: #eeeeee;
+}
+
+.ant-table-row-selected {
+    text-decoration: line-through;
+}
